@@ -1,0 +1,88 @@
+name: CrazySMPEssentials
+version: '2.0.0'
+main: dev.crazysmp.CrazySMPPlugin
+api-version: '1.21'
+authors: [sigma_abc]
+description: CrazySMP custom essentials plugin
+
+# Hard dependencies
+depend: [Vault]
+
+# Soft dependencies — plugin still loads without these
+softdepend:
+  - LuckPerms
+  - PlaceholderAPI
+  - EconomyShopGUI
+  - SmartSpawners
+
+commands:
+  balance:
+    description: Check your balance
+    usage: /balance [player] [currency]
+    aliases: [bal, money]
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount> [currency]
+  eco:
+    description: Economy admin commands
+    usage: /eco <give|take|set|reset> <player> <amount> [currency]
+    permission: crazysmp.eco
+  balancetop:
+    description: View balance leaderboard
+    usage: /balancetop [currency] [page]
+    aliases: [baltop, richlist]
+  home:
+    description: Teleport to a home
+    usage: /home [name]
+  sethome:
+    description: Set a home
+    usage: /sethome [name]
+  delhome:
+    description: Delete a home
+    usage: /delhome <name>
+  homes:
+    description: Open homes GUI
+    usage: /homes
+  rtp:
+    description: Random teleport
+    usage: /rtp
+    aliases: [wild]
+  migrate:
+    description: Migrate data from another plugin
+    usage: /migrate <plugin>
+    permission: crazysmp.admin
+  forcedmg:
+    description: Force a player to take damage (bypasses invincibility)
+    usage: /forcedmg <player> <amount>
+    permission: crazysmp.forcedmg
+  crazysmp:
+    description: Plugin management commands
+    usage: /crazysmp reload
+    aliases: [csmp]
+    permission: crazysmp.admin
+
+permissions:
+  crazysmp.admin:
+    description: Full admin access
+    default: op
+  crazysmp.eco:
+    description: Economy admin commands
+    default: op
+  crazysmp.forcedmg:
+    description: Force-damage command
+    default: op
+  crazysmp.homes.unlimited:
+    description: Unlimited homes
+    default: false
+  crazysmp.homes.1:
+    description: 1 home slot
+    default: true
+  crazysmp.homes.5:
+    description: 5 home slots
+    default: false
+  crazysmp.homes.10:
+    description: 10 home slots
+    default: false
+  crazysmp.rtp.bypass-cooldown:
+    description: Bypass RTP cooldown
+    default: op

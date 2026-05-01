@@ -1,0 +1,190 @@
+# ╔══════════════════════════════════════════════╗
+# ║     CrazySMP Essentials  v1.0.0              ║
+# ║     by sigma_abc                             ║
+# ╚══════════════════════════════════════════════╝
+
+# ── CURRENCIES ───────────────────────────────────────────────────
+# The first currency marked vault: true is registered with VaultUnlocked
+# and works with EconomyShopGUI, shop plugins, etc.
+currencies:
+  dollars:
+    display-name: "Dollars"
+    symbol: "$"
+    symbol-position: before   # before or after
+    decimal-places: 2
+    starting-balance: 500.0
+    vault: true               # THIS one hooks into Vault
+    color: "&a"               # colour for display
+  shards:
+    display-name: "Shards"
+    symbol: "✦"
+    symbol-position: after
+    decimal-places: 0
+    starting-balance: 0.0
+    vault: false
+    color: "&b"
+  # Add more currencies here:
+  # gems:
+  #   display-name: "Gems"
+  #   symbol: "♦"
+  #   symbol-position: after
+  #   decimal-places: 0
+  #   starting-balance: 0.0
+  #   vault: false
+  #   color: "&d"
+
+# ── HOMES ────────────────────────────────────────────────────────
+homes:
+  # Default max homes (overridden by crazysmp.homes.<n> permission)
+  default-max: 1
+  # Teleport delay in seconds (0 = instant)
+  teleport-delay: 3
+  # Cancel teleport on move?
+  cancel-on-move: true
+  # GUI title
+  gui-title: "&8⌂ &6Your Homes"
+  # Filler item in empty slots
+  filler-material: GRAY_STAINED_GLASS_PANE
+
+# ── RTP ──────────────────────────────────────────────────────────
+rtp:
+  # World to RTP in (leave blank for player's current world)
+  world: "world"
+  # Search radius (random within this)
+  min-radius: 1000
+  max-radius: 50000
+  # Excluded biomes (unsafe)
+  excluded-biomes:
+    - OCEAN
+    - DEEP_OCEAN
+    - FROZEN_OCEAN
+    - DEEP_FROZEN_OCEAN
+    - COLD_OCEAN
+    - DEEP_COLD_OCEAN
+    - LUKEWARM_OCEAN
+    - DEEP_LUKEWARM_OCEAN
+    - WARM_OCEAN
+    - LAVA
+  # Max attempts to find safe location
+  max-attempts: 50
+  # Cooldown in seconds (0 = none)
+  cooldown: 300
+  # GUI title
+  gui-title: "&8✈ &6Random Teleport"
+  # GUI options shown as items
+  options:
+    overworld:
+      material: GRASS_BLOCK
+      name: "&aOverworld RTP"
+      lore:
+        - "&7Teleport to a random location"
+        - "&7in the overworld."
+        - ""
+        - "&eClick to teleport!"
+      world: "world"
+      enabled: true
+    nether:
+      material: NETHERRACK
+      name: "&cNether RTP"
+      lore:
+        - "&7Teleport to a random location"
+        - "&7in the nether."
+        - ""
+        - "&eClick to teleport!"
+      world: "world_nether"
+      enabled: true
+    end:
+      material: END_STONE
+      name: "&5End RTP"
+      lore:
+        - "&7Teleport to a random location"
+        - "&7in the end."
+        - ""
+        - "&eClick to teleport!"
+      world: "world_the_end"
+      enabled: false
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CrazySMP Essentials v2.0.0 — config.yml ADDITIONS
+# Add these sections to your existing config.yml
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ── Baltop Blacklist ─────────────────────────────────────
+# UUIDs OR player names to exclude from /baltop
+baltop:
+  blacklist:
+    - "ServerShop"          # player name
+    - "00000000-0000-0000-0000-000000000000"  # UUID example
+
+# ── Shard Shop Hook ──────────────────────────────────────
+shard-shop:
+  # The currency ID from your 'currencies' section to use as shards
+  currency: shards
+
+  # EconomyShopGUI: items listed here cost shards (material -> cost per item)
+  economyshopgui:
+    enabled: true
+    items:
+      DIAMOND: 5
+      EMERALD: 3
+      NETHERITE_INGOT: 50
+      NETHER_STAR: 200
+      SPAWNER: 100
+      WITHER_SKELETON_SKULL: 30
+
+  # SmartSpawners: each upgrade level costs this many shards
+  smart-spawners:
+    enabled: true
+    upgrade-cost: 25
+
+# ── Add a 'shards' currency to your currencies block ────
+# (Paste into your existing 'currencies:' section)
+# currencies:
+#   shards:
+#     display-name: "Shards"
+#     symbol: "◆"
+#     symbol-position: before
+#     decimal-places: 0
+#     starting-balance: 0
+#     vault: false
+#     color: "&b"
+
+# ── New messages ─────────────────────────────────────────
+# (Add to your existing 'messages:' section)
+# messages:
+#   home-teleport-wait: "&7Teleporting to &6%name% &7in &e%seconds%s&7..."
+#   home-cancelled:     "&cTeleport cancelled — you moved!"
+
+# ── MESSAGES ─────────────────────────────────────────────────────
+messages:
+  prefix: "&8[&6CrazySMP&8] &r"
+  no-permission: "&cYou don't have permission to do that."
+  player-not-found: "&cPlayer &e%player%&c not found."
+  # Economy
+  balance-self: "&7Your &6%currency%&7 balance: &a%symbol%%amount%"
+  balance-other: "&6%player%&7's &6%currency%&7 balance: &a%symbol%%amount%"
+  pay-sent: "&aSent &e%symbol%%amount% &6%currency%&a to &e%player%&a."
+  pay-received: "&aYou received &e%symbol%%amount% &6%currency%&a from &e%player%&a."
+  pay-not-enough: "&cYou don't have enough &6%currency%&c."
+  pay-self: "&cYou can't pay yourself."
+  eco-give: "&aGave &e%symbol%%amount% &6%currency%&a to &e%player%&a."
+  eco-take: "&aTook &e%symbol%%amount% &6%currency%&a from &e%player%&a."
+  eco-set: "&aSet &e%player%&a's &6%currency%&a balance to &e%symbol%%amount%&a."
+  eco-reset: "&aReset &e%player%&a's &6%currency%&a balance."
+  # Homes
+  home-set: "&aHome &6%name%&a set!"
+  home-deleted: "&aHome &6%name%&a deleted."
+  home-not-found: "&cHome &e%name%&c not found."
+  home-teleporting: "&7Teleporting to &6%name%&7 in &e%seconds%s&7..."
+  home-teleported: "&aTeleported to &6%name%&a."
+  home-cancelled: "&cTeleport cancelled."
+  home-limit: "&cYou've reached your home limit &8(&e%max% homes&8)&c."
+  # RTP
+  rtp-searching: "&7Finding a safe location..."
+  rtp-teleported: "&aTeleported to &e%x%&7, &e%y%&7, &e%z%&7 in &6%world%&7."
+  rtp-failed: "&cCouldn't find a safe location. Try again!"
+  rtp-cooldown: "&cRTP on cooldown. &e%seconds%s&c remaining."
+  # Migration
+  migrate-start: "&7Starting migration from &e%source%&7..."
+  migrate-done: "&aMigration complete! &e%count%&a records migrated."
+  migrate-error: "&cMigration failed: &e%error%"
