@@ -1,0 +1,131 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ANVIL
+        buy: 713.32
+        sell: 178.33
+      '2':
+        material: CARROT_ON_A_STICK
+        buy: 7.08
+        sell: 1.77
+      '3':
+        material: COBWEB
+        buy: 40
+        sell: 10
+      '4':
+        material: COD_BUCKET
+        buy: 79.56
+        sell: 19.89
+      '5':
+        material: ELYTRA
+        buy: 2415.2
+        sell: -1
+      '6':
+        material: ENDER_CHEST
+        buy: 273.12
+        sell: 68.28
+      '7':
+        material: ENDER_EYE
+        buy: 10.11
+        sell: 2.53
+      '8':
+        material: EXPERIENCE_BOTTLE
+        buy: 107.94
+        sell: -1
+      '9':
+        material: GLOWSTONE_DUST
+        buy: 7
+        sell: 1.75
+      '10':
+        material: LAVA_BUCKET
+        buy: 69.62
+        sell: 17.41
+      '11':
+        material: LEAD
+        buy: 17.33
+        sell: 4.34
+      '12':
+        material: LILY_PAD
+        buy: 28
+        sell: 7
+      '13':
+        material: MAP
+        buy: 99.29
+        sell: 24.83
+      '14':
+        material: NAME_TAG
+        buy: 100
+        sell: 25
+      '15':
+        material: NETHER_STAR
+        buy: 400
+        sell: 100
+      '16':
+        material: PUFFERFISH_BUCKET
+        buy: 79.56
+        sell: 19.89
+      '17':
+        material: RED_BED
+        buy: 96.09
+        sell: 24.03
+      '18':
+        material: SADDLE
+        buy: 60
+        sell: 15
+      '19':
+        material: SALMON_BUCKET
+        buy: 79.56
+        sell: 19.89
+      '20':
+        material: SHULKER_SHELL
+        buy: 7
+        sell: 1.75
+      '21':
+        material: SLIME_BALL
+        buy: 5
+        sell: 1.25
+      '22':
+        material: SNOW
+        buy: 6.62
+        sell: 1.66
+      '23':
+        material: SNOWBALL
+        buy: 3
+        sell: 0.75
+      '24':
+        material: SPONGE
+        buy: 525
+        sell: 131.25
+      '25':
+        material: TOTEM_OF_UNDYING
+        buy: 100
+        sell: 25
+      '26':
+        material: TRIDENT
+        buy: 180
+        sell: 45
+      '27':
+        material: TROPICAL_FISH_BUCKET
+        buy: 79.56
+        sell: 19.89
+      '28':
+        material: TURTLE_EGG
+        buy: 15
+        sell: 3.75
+      '29':
+        material: WATER_BUCKET
+        buy: 69.57
+        sell: 17.4
+      '30':
+        material: WRITABLE_BOOK
+        buy: 48.95
+        sell: 12.24
+      '31':
+        material: BEACON
+        buy: 551.52
+        sell: 137.88
+      '32':
+        material: END_ROD
+        buy: 2.14
+        sell: 0.54

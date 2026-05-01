@@ -1,0 +1,97 @@
+name: EconomyShopGUI
+version: 6.16.4
+main: me.gypopo.economyshopgui.EconomyShopGUI
+api-version: 1.13
+authors: [Gypopo]
+description: This is a simple to use server GUI shop plugin.
+folia-supported: true
+libraries:
+  - net.kyori:adventure-api:4.20.0
+  - net.kyori:adventure-platform-bukkit:4.4.1
+  - net.kyori:adventure-text-minimessage:4.20.0
+  - net.kyori:adventure-text-serializer-gson:4.20.0
+  - net.kyori:adventure-text-serializer-legacy:4.20.0
+softdepend:
+  - Vault
+  - GemsEconomy
+  - PlayerPoints
+  - CoinsEngine
+  - UltraEconomy
+  - VotingPlugin
+  - zEssentials
+
+  - Essentials
+  - EssentialsChat
+
+  - SilkSpawners
+  - SilkSpawners_v2
+  - WildStacker
+  - UltimateStacker
+  - RoseStacker
+  - MineableSpawners
+  - SpawnerMeta
+  - SpawnerLegacy
+  - SmartSpawner
+
+  - ViaVersion
+  - ProtocolSupport
+  - floodgate
+  - Geyser-Spigot
+
+  - RealisticSeasons
+  - PlaceholderAPI
+  - DiscordSRV
+  - Quests
+  - WorldGuard
+
+loadbefore:
+  - AutoSellChests
+
+permissions:
+  EconomyShopGUI.shop:
+    default: true
+    description: This permission allows players to use the /shop command
+  EconomyShopGUI.sellall:
+    default: true
+    description: This permission allows players to use the /sellall command
+  EconomyShopGUI.sellallitem:
+    default: true
+    description: This permission allows players to use the /sellall <item> command
+  EconomyShopGUI.sellallhand:
+    default: true
+    description: This permission allows players to use the /sellall hand command
+  EconomyShopGUI.sellgui:
+    default: true
+    description: This permission allows players to open the /sellGUI
+  EconomyShopGUI.reload:
+    description: This permission allows players to use the /sreload command
+  EconomyShopGUI.itemindexes:
+    description: Allows you to see the locations of the shop items inside the shops.yml
+  EconomyShopGUI.notifyUpdate:
+    description: Player's with this permission will be notified for plugin updates when they join the server
+  EconomyShopGUI.eshop.*:
+    default: op
+    children:
+      EconomyShopGUI.eshop.additem: true
+      EconomyShopGUI.eshop.edititem: true
+      EconomyShopGUI.eshop.deleteitem: true
+      EconomyShopGUI.eshop.addhanditem: true
+      EconomyShopGUI.eshop.import: true
+      EconomyShopGUI.eshop.migrate: true
+      EconomyShopGUI.eshop.addsection: true
+      EconomyShopGUI.eshop.editsection: true
+      EconomyShopGUI.eshop.deletesection: true
+      EconomyShopGUI.eshop.installLayout: true
+      EconomyShopGUI.eshop.uploadLayout: true
+      EconomyShopGUI.eshop.updateLayout: true
+  EconomyShopGUI.eshop.shopstands.*:
+    default: op
+    children:
+      EconomyShopGUI.eshop.shopstands.give: true
+      EconomyShopGUI.eshop.shopstands.destroy: true
+      EconomyShopGUI.eshop.shopstands.browse: true
+      EconomyShopGUI.eshop.shopstands.edit: true
+      EconomyShopGUI.eshop.shopstands.create: true
+  EconomyShopGUI.shopgive:
+    default: op
+    description: Gives access to the /shopgive command

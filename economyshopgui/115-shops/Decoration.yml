@@ -1,0 +1,189 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: FLOWER_POT
+        buy: 69.46
+        sell: 17.37
+      '2':
+        material: HONEYCOMB_BLOCK
+        buy: 13.23
+        sell: 3.31
+      '3':
+        material: JACK_O_LANTERN
+        buy: 11.2
+        sell: 2.8
+      '4':
+        material: BRAIN_CORAL
+        buy: 5
+        sell: 1.25
+      '5':
+        material: BRAIN_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '6':
+        material: BRAIN_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '7':
+        material: BUBBLE_CORAL
+        buy: 5
+        sell: 1.25
+      '8':
+        material: BUBBLE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '9':
+        material: BUBBLE_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '10':
+        material: DEAD_BRAIN_CORAL
+        buy: 5
+        sell: 1.25
+      '11':
+        material: DEAD_BRAIN_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '12':
+        material: DEAD_BRAIN_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '13':
+        material: DEAD_BUBBLE_CORAL
+        buy: 5
+        sell: 1.25
+      '14':
+        material: DEAD_BUBBLE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '15':
+        material: DEAD_BUBBLE_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '16':
+        material: DEAD_FIRE_CORAL
+        buy: 5
+        sell: 1.25
+      '17':
+        material: DEAD_FIRE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '18':
+        material: DEAD_FIRE_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '19':
+        material: DEAD_HORN_CORAL
+        buy: 5
+        sell: 1.25
+      '20':
+        material: DEAD_HORN_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '21':
+        material: DEAD_HORN_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '22':
+        material: DEAD_TUBE_CORAL
+        buy: 5
+        sell: 1.25
+      '23':
+        material: DEAD_TUBE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '24':
+        material: DEAD_TUBE_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '25':
+        material: FIRE_CORAL
+        buy: 5
+        sell: 1.25
+      '26':
+        material: FIRE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '27':
+        material: FIRE_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '28':
+        material: HORN_CORAL
+        buy: 5
+        sell: 1.25
+      '29':
+        material: HORN_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '30':
+        material: HORN_CORAL_FAN
+        buy: 3
+        sell: 0.75
+      '31':
+        material: TUBE_CORAL
+        buy: 5
+        sell: 1.25
+      '32':
+        material: TUBE_CORAL_BLOCK
+        buy: 16
+        sell: 4
+      '33':
+        material: TUBE_CORAL_FAN
+        buy: 6
+        sell: 1.5
+      '34':
+        material: ACACIA_LEAVES
+        buy: 3
+        sell: 0.75
+      '35':
+        material: BIRCH_LEAVES
+        buy: 3
+        sell: 0.75
+      '36':
+        material: DARK_OAK_LEAVES
+        buy: 3
+        sell: 0.75
+      '37':
+        material: JUNGLE_LEAVES
+        buy: 3
+        sell: 0.75
+      '38':
+        material: OAK_LEAVES
+        buy: 3
+        sell: 0.75
+      '39':
+        material: SPRUCE_LEAVES
+        buy: 3
+        sell: 0.75
+      '40':
+        material: ACACIA_SAPLING
+        buy: 3
+        sell: 0.75
+      '41':
+        material: BIRCH_SAPLING
+        buy: 3
+        sell: 0.75
+      '42':
+        material: DARK_OAK_SAPLING
+        buy: 3
+        sell: 0.75
+      '43':
+        material: JUNGLE_SAPLING
+        buy: 3
+        sell: 0.75
+      '44':
+        material: OAK_SAPLING
+        buy: 3
+        sell: 0.75
+      '45':
+        material: SPRUCE_SAPLING
+        buy: 3
+        sell: 0.75
+  page2:
+    items:
+      '46':
+        material: VINE
+        buy: 7
+        sell: 1.75

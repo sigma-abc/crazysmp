@@ -1,0 +1,91 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BAMBOO
+        buy: 0.1
+        sell: 0.03
+      '2':
+        material: BEETROOT_SEEDS
+        buy: 3
+        sell: 0.75
+      '3':
+        material: BROWN_MUSHROOM
+        buy: 2
+        sell: 0.5
+      '4':
+        material: CACTUS
+        buy: 0.1
+        sell: 0.03
+      '5':
+        material: CARROT
+        buy: 5
+        sell: 1.25
+      '6':
+        material: CHORUS_FLOWER
+        buy: 1
+        sell: 0.25
+      '7':
+        material: CHORUS_FRUIT
+        buy: 3
+        sell: 0.75
+      '8':
+        material: COCOA_BEANS
+        buy: 6
+        sell: 1.5
+      '9':
+        material: EGG
+        buy: 5
+        sell: 1.25
+      '10':
+        material: KELP
+        buy: 0.1
+        sell: 0.03
+      '11':
+        material: LEATHER
+        buy: 33.6
+        sell: 8.4
+      '12':
+        material: MELON
+        buy: 9.45
+        sell: 2.37
+      '13':
+        material: MELON_SEEDS
+        buy: 3
+        sell: 0.75
+      '14':
+        material: MELON_SLICE
+        buy: 1
+        sell: 0.25
+      '15':
+        material: NETHER_WART
+        buy: 3
+        sell: 0.75
+      '16':
+        material: POTATO
+        buy: 5
+        sell: 1.25
+      '17':
+        material: PUMPKIN
+        buy: 5
+        sell: 1.25
+      '18':
+        material: PUMPKIN_SEEDS
+        buy: 1.19
+        sell: 0.3
+      '19':
+        material: RED_MUSHROOM
+        buy: 2
+        sell: 0.5
+      '20':
+        material: SUGAR_CANE
+        buy: 0.1
+        sell: 0.03
+      '21':
+        material: WHEAT
+        buy: 5
+        sell: 1.25
+      '22':
+        material: WHEAT_SEEDS
+        buy: 3
+        sell: 0.75

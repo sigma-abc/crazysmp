@@ -1,0 +1,269 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: AXOLOTL_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '2':
+        material: BAT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '3':
+        material: BLAZE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '4':
+        material: CAT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '5':
+        material: CAVE_SPIDER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '6':
+        material: CHICKEN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '7':
+        material: COD_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '8':
+        material: COW_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '9':
+        material: CREEPER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '10':
+        material: DOLPHIN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '11':
+        material: DONKEY_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '12':
+        material: DROWNED_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '13':
+        material: ELDER_GUARDIAN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '14':
+        material: ENDERMAN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '15':
+        material: ENDERMITE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '16':
+        material: EVOKER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '17':
+        material: FOX_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '18':
+        material: GHAST_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '19':
+        material: GLOW_SQUID_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '20':
+        material: GOAT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '21':
+        material: GUARDIAN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '22':
+        material: HOGLIN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '23':
+        material: HORSE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '24':
+        material: HUSK_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '25':
+        material: LLAMA_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '26':
+        material: MAGMA_CUBE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '27':
+        material: MOOSHROOM_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '28':
+        material: MULE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '29':
+        material: OCELOT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '30':
+        material: PANDA_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '31':
+        material: PARROT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '32':
+        material: PHANTOM_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '33':
+        material: PIG_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '34':
+        material: PIGLIN_BRUTE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '35':
+        material: PIGLIN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '36':
+        material: PILLAGER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '37':
+        material: POLAR_BEAR_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '38':
+        material: PUFFERFISH_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '39':
+        material: RABBIT_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '40':
+        material: RAVAGER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '41':
+        material: SALMON_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '42':
+        material: SHEEP_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '43':
+        material: SHULKER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '44':
+        material: SILVERFISH_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '45':
+        material: SKELETON_HORSE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+  page2:
+    items:
+      '46':
+        material: SKELETON_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '47':
+        material: SLIME_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '48':
+        material: SPIDER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '49':
+        material: SQUID_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '50':
+        material: STRAY_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '51':
+        material: STRIDER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '52':
+        material: TRADER_LLAMA_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '53':
+        material: TROPICAL_FISH_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '54':
+        material: TURTLE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '55':
+        material: VEX_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '56':
+        material: VILLAGER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '57':
+        material: VINDICATOR_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '58':
+        material: WANDERING_TRADER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '59':
+        material: WITCH_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '60':
+        material: WITHER_SKELETON_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '61':
+        material: WOLF_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '62':
+        material: ZOGLIN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '63':
+        material: ZOMBIE_HORSE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '64':
+        material: ZOMBIE_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '65':
+        material: ZOMBIE_VILLAGER_SPAWN_EGG
+        buy: 999999999
+        sell: -1
+      '66':
+        material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+        buy: 999999999
+        sell: -1
