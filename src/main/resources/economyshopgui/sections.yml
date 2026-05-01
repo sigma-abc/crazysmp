@@ -1,0 +1,11 @@
+ShardShop:
+  enable: true
+  slot: 10
+  title: "&b&lShard Shop"
+  economy: "ITEM:material:PRISMARINE_SHARD name:&bShards"
+  item:
+    material: PRISMARINE_SHARD
+    name: "&b&lShard Shop"
+    lore:
+      - "&7Buy exclusive items with shards!"
+      - "&7Your Balance: &e%crazysmp_shards%"
